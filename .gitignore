@@ -26,6 +26,7 @@ tags
 mkmf.log
 
 *.lock
+!Gemfile.lock
 
 # For Grunt project
 **/node_modules
@@ -38,3 +39,5 @@ mkmf.log
 .python-version
 
 docker/pool/config/config.yml
+
+.idea/

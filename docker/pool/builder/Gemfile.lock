@@ -1,0 +1,157 @@
+PATH
+  remote: .
+  specs:
+    builder (0.0.1)
+      activesupport
+      docker-api
+      eventmachine
+      eventmachine_httpserver
+      faraday-http-cache
+      git
+      octokit
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.3)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.3.8)
+    bacon (1.2.0)
+    coderay (1.1.0)
+    cookiejar (0.3.2)
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    docker-api (1.22.0)
+      excon (>= 0.38.0)
+      json
+    em-eventsource (0.2.0)
+      em-http-request (>= 1.0.0)
+      eventmachine (>= 1.0.0.beta3)
+    em-http-request (1.1.2)
+      addressable (>= 2.3.4)
+      cookiejar
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.0)
+      eventmachine (>= 1.0.0.beta.4)
+    em-spec (0.2.6)
+      bacon
+      eventmachine
+      rspec (> 2.6.0)
+      test-unit
+    eventmachine (1.0.7)
+    eventmachine_httpserver (0.2.1)
+    excon (0.45.4)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday-http-cache (1.1.1)
+      faraday (~> 0.8)
+    ffi (1.9.10)
+    formatador (0.2.5)
+    git (1.2.9.1)
+    guard (2.12.9)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, <= 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-rspec (4.6.2)
+      guard (~> 2.1)
+      guard-compat (~> 1.1)
+      rspec (>= 2.99.0, < 4.0)
+    http_parser.rb (0.6.0)
+    i18n (0.7.0)
+    json (1.8.3)
+    listen (3.0.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.9)
+    method_source (0.8.2)
+    minitest (5.7.0)
+    multipart-post (2.0.0)
+    nenv (0.2.0)
+    notiffany (0.0.6)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    octokit (4.0.1)
+      sawyer (~> 0.6.0, >= 0.5.3)
+    power_assert (0.2.4)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.8.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    pry-remote (0.1.8)
+      pry (~> 0.9)
+      slop (~> 3.0)
+    rake (10.4.2)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.2)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-nc (0.2.0)
+      rspec (>= 2.9)
+      terminal-notifier (>= 1.4)
+    rspec-support (3.3.0)
+    sawyer (0.6.0)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
+    shellany (0.0.1)
+    simplecov (0.10.0)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    slop (3.6.0)
+    terminal-notifier (1.6.3)
+    test-unit (3.1.2)
+      power_assert
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  builder!
+  bundler
+  em-eventsource
+  em-http-request
+  em-spec
+  guard
+  guard-rspec
+  pry
+  pry-doc
+  pry-nav
+  pry-remote
+  rake
+  rspec
+  rspec-nc
+  simplecov

@@ -1,0 +1,15 @@
+version: "2"
+services:
+  pool:
+    build: ./docker/pool/
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      MAX_CONTAINERS: 5
+      PREVIEW_REPOSITORY_URL: https://github.com/mookjp/flaskapp.git
+      POOL_BASE_DOMAIN: pool.dev
+      GITHUB_BOT: "false"
+    container_name: pool
+    ports:
+      - "80:80"
+

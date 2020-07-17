@@ -46,7 +46,7 @@ GEM
       test-unit
     eventmachine (1.0.7)
     eventmachine_httpserver (0.2.1)
-    excon (0.45.4)
+    excon (0.75.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     faraday-http-cache (1.1.1)

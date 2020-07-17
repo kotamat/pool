@@ -51,7 +51,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     faraday-http-cache (1.1.1)
       faraday (~> 0.8)
-    ffi (1.9.10)
+    ffi (1.13.1)
     formatador (0.2.5)
     git (1.2.9.1)
     guard (2.12.9)
